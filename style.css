@@ -1,14 +1,23 @@
 body {
-    display: flex;
+    display: grid;
     justify-content: center;
     align-content: center;
+    justify-items: center;
+    padding: 100px;
+
+    background-color: rgb(201, 180, 221);
 }
 
-.container {
+#container {
+
     display: grid;
     grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
     grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
 
-    height: 500px;
-    width: 500px;
+    height: 400px;
+    width: 400px;
+    padding: 10px;
+
+    border: 10px solid black;
 }
+
