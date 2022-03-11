@@ -6,6 +6,8 @@ body {
     padding: 100px;
 
     background-color: rgb(201, 180, 221);
+
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 #container {
@@ -19,5 +21,13 @@ body {
     padding: 10px;
 
     border: 10px solid black;
+}
+
+#clear-button {
+    margin: 100px;
+    padding: 10px;
+    font-size: large;
+    font-weight: 700;
+    background-color: rgb(197, 228, 255);
 }
 
