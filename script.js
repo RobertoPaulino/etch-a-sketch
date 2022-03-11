@@ -5,6 +5,8 @@ let root = document.querySelector(':root');
 // create 100 grids, give them 'grid' class, and add an event so that their background changes to black
 // when the mouse hovers over the grid.
 
+size = 10;
+
 
 for (i=0; i < (size*size); i++){
 
@@ -36,7 +38,7 @@ let newSize = 0;
 sizeBtn.addEventListener('click', function (e){
     
     while (newSize < 10 || newSize > 100){
-        newSize = prompt("Please enter the new size \nSize has to be between 10-100")
+        newSize = prompt("Please enter the new size. Size has to be between 10-100")
         root.style.setProperty('--size', newSize);
     }
 
